@@ -1,0 +1,87 @@
+                       1.Sorting Algorithms:
+
+Bubble Sort
+Selection Sort
+Insertion Sort
+Merge Sort
+Quick Sort
+                       2.Searching Algorithms:
+
+Linear Search
+Binary Search
+                       3.Graph Algorithms:
+
+Breadth-First Search (BFS)
+Depth-First Search (DFS)
+Dijkstra's Algorithm (shortest path)
+Bellman-Ford Algorithm (shortest path with negative weights)
+Kruskal's Algorithm (minimum spanning tree)
+Prim's Algorithm (minimum spanning tree)
+
+                       4.Dynamic Programming:
+
+Fibonacci Sequence
+Knapsack Problem
+Longest Common Subsequence (LCS)
+Matrix Chain Multiplication
+
+                       5.Backtracking:
+
+N-Queens Problem
+Sudoku Solver
+
+                       6.Tree Algorithms:
+
+Tree Traversal (Preorder, Inorder, Postorder)
+Binary Search Tree (BST) operations (insertion, deletion, search)
+
+                       7.Hashing:
+
+Hash Tables
+Collision Resolution Techniques (Chaining, Open Addressing)
+
+                       6.String Matching:
+
+Brute Force
+Knuth-Morris-Pratt (KMP) Algorithm
+Rabin-Karp Algorithm
+
+                       7.Computational Geometry:
+
+Convex Hull
+Line Intersection
+                       8.Bit Manipulation:
+
+Bitwise Operations (AND, OR, XOR, NOT)
+Bitwise Shifting
+
+                       9.Randomized Algorithms:
+
+Randomized Quick Sort
+Randomized Selection
+
+                      10.Machine Learning:
+
+Linear Regression
+Logistic Regression
+Decision Trees
+K-Means Clustering
+Naive Bayes
+Support Vector Machines (SVM)
+Neural Networks
+
+                      11.Database Algorithms:
+
+B-Trees
+Hash Indexing
+Query Optimization
+
+                      12.Network Algorithms:
+
+Routing Algorithms (Dijkstra, Bellman-Ford)
+Network Flow Algorithms (Ford-Fulkerson, Edmonds-Karp)
+
+                      13.Operating System Algorithms:
+
+Process Scheduling (Round Robin, Shortest Job Next)
+Deadlock Detection and Prevention
