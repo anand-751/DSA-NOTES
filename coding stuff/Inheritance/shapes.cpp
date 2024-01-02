@@ -19,12 +19,10 @@ private:
     float mBreadth;
 
 public:
-    Rectangle(float length, float breadth) : mLength(length), mBreadth(breadth) {}
-
-    float calculateArea() {
+    Rectangle(float length, float breadth) : mLength(length), mBreadth(breadth) {
         mArea = mLength * mBreadth;
-        return mArea;
     }
+
 };
 
 class Circle : public shapes {
@@ -32,12 +30,10 @@ private:
     float mRadius;
 
 public:
-    Circle(float radius) : mRadius(radius) {}
-
-    float calculateArea() {
+    Circle(float radius) : mRadius(radius) {
         mArea = 3.14 * mRadius * mRadius;
-        return mArea;
     }
+
 };
 
 class shapesCanvas {
@@ -72,8 +68,8 @@ int main() {
     canvas.addShape(circle);
     canvas.addShape(rectangle);
 
-    cout << "Circle Area: " << circle.calculateArea() << endl;
-    cout << "Rectangle Area: " << rectangle.calculateArea() << endl;
+    cout << "Circle Area: " << circle.getArea() << endl;
+    cout << "Rectangle Area: " << rectangle.getArea() << endl;
 
     cout << "Number of Circles in Canvas: " << canvas.countCircles() << endl;
     cout << "Number of Circles in Canvas: " << canvas.countRectangles() << endl;
@@ -84,8 +80,8 @@ int main() {
     canvas.addShape(circle);
     canvas.addShape(rectangle);
 
-    cout << "Circle Area: " << circle1.calculateArea() << endl;
-    cout << "Rectangle Area: " << rectangle1.calculateArea() << endl;
+    cout << "Circle Area: " << circle1.getArea() << endl;
+    cout << "Rectangle Area: " << rectangle1.getArea() << endl;
 
     cout << "Number of Circles in Canvas: " << canvas.countCircles() << endl;
     cout << "Number of Circles in Canvas: " << canvas.countRectangles() << endl;
