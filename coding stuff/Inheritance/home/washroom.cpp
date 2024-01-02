@@ -7,6 +7,6 @@ int Washroom::getNumOfTaps() const{
 }
 
 int Washroom::getNumOfBasins() const{
-    return mNumOfSinks;
+    return mNumOfBasins;
 
 }
